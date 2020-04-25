@@ -30,5 +30,5 @@ for name in names:
          })
 
          print 'sent %s, %s to %s in fields %s and %s' % (username, password, url, uname, pw)
-    else:
+    elif url == None:
         print 'Would have sent username \"%s\" and password \"%s\"' % (username, password)
